@@ -47,7 +47,7 @@ void ABaseCharacter::Die_Implementation()
 	Tags.Add(FName("Dead"));
 	PlayDeathMontage();
 }
-
+//ㅁㄴㅇㅁㄴㅇ
 void ABaseCharacter::PlayHitReactMontage(const FName& SectionName)
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
